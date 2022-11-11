@@ -1,7 +1,7 @@
 # WeightBufs:
 
 `WeightBufs` is a kernel r/w exploit for all Apple devices with Neural Engine support.
-Bugs and Exploit by [@_simo36_](https://twitter.com/_simo36), you can read my [presentation slides at POC for more details](https://github.com/0x36/weightBufs/blob/main/attacking_ane_poc2022.pdf) for more details about the vulnerabilities and the exploitation techniques.
+Bugs and Exploit by [@_simo36_](https://twitter.com/_simo36), you can read my [presentation slides at POC](https://github.com/0x36/weightBufs/blob/main/attacking_ane_poc2022.pdf) for more details about the vulnerabilities and the exploitation techniques.
 
 The exploit doesn't rely on any hardcoded address or offset, and it should work AS IS on macOS12 up to 12.4 and *OS 15 up to 15.5. 
 
