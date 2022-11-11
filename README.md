@@ -35,4 +35,5 @@ There are some situations where the exploit may fail:
 
 
 
-
+# License
+WeightBufs is released under the MIT license.
