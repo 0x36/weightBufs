@@ -30,7 +30,7 @@ The exploit chains 4 vulnerabilities which I independently discovered and report
 There are some situations where the exploit may fail:
 - The target *IOSurface* or *IOSurfaceClient* object address is upper to the mutable kernel buffer `MUTK`,however the exploit detects the failure early, preventing the device from crashing. It's sufficient to run the exploit again and it should succeed on the second attempt.
 - If the exploit frequently crashes the device at stage 2 or stage 3, that means it must be tuned to the tested device, make sure to read `DEBUG_EXPLOIT_STAGE_2_KERN_PANIC` and `DEBUG_EXPLOIT_STAGE_3_KERN_PANIC` for more details.
-- The target device needs to be in an idle state, and it's preferable to reboot it before using the exploit, even better if the airplane mode is turned off.
+- The target device needs to be in an idle state, and it's preferable to reboot it before using the exploit, even better if the airplane mode is turned on.
 
 
 
